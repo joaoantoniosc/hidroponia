@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - João Antônio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<style>
+    body{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #121212;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    h1{
+        text-align: left;
+        line-height: 1.25em;
+    }
+
+    a{
+        color:turquoise
+    }
+
+    .container{
+        max-width: 720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: rgb(29, 29, 29);
+        box-sizing: border-box;
+        padding: 32px;
+        border-radius: 24px;
+    }
+
+    h2{
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .cardTopic{
+        background-color: #1f1f1f;
+        padding: 32px;
+        border-radius: 24px;
+        margin-top: 16px;
+        width: 100%;
+    } 
+
+    .cardTopic p{
+        margin: 0px;
+        padding: 0px;
+    }
+    .center-text{
+        text-align: center;
+    }
+    
+    .icon-social{
+        background-color: #1f1f1f;
+        padding: 16px;
+        border-radius: 16px;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 4px;
+    }
+
+    .icon-social:hover{
+        background-color: #2e2e2e;
+    }
+
+    .icon-social i{
+       font-size: 32px;
+       text-decoration: none;
+        color: #ffffff;
+    }
+
+    .cover{
+        margin-top: 16px;
+        height: 200px;
+        width: 100%;
+        background-image: url("assets/capa.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 24px;
+        max-width: 980px;
+    }
+
+    .first-info{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        width: 100%;
+        gap: 24px;
+        margin-top: -8px;
+    }
+
+    .first-info h1{
+        font-size: 24px;
+        line-height: 24px;;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .first-info p{
+        font-size: 18px;
+        color: #cfcfcf;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .first-info button{
+        padding: 10px 24px;
+        border-radius: 80px;
+        font-weight: 600;
+        border: 0px;
+    }
+
+    .first-info button:hover{
+        background-color: #d6d6d6;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .textFirstInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 100%;
+    }
+
+    .firstLink{
+        font-size: 14px;
+        line-height: 14px;
+        padding: 8px 16px;
+        border-radius: 80px;
+        background-color: #1f1f1f;
+        width: fit-content;
+        font-weight: 500;
+        display: flex;
+        gap: 8px;
+        margin-top: 4px;
+    }
+
+    .firstLink:hover{
+        background-color: #2e2e2e;
+    }
+
+    .textFirstInfo a{
+        color: #cfcfcf;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 767px){
+
+    .cover{
+        margin-top: 16px;
+        height: 140px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        border-radius: 24px;
+    }
+
+    .container{
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .first-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 24px;
+        margin-top: -8px;
+    }
+    
+    .icon-social i{
+       font-size: 24px;
+       text-decoration: none;
+        color: #ffffff;
+    }
+
+    .icon-social{
+        background-color: #1f1f1f;
+        padding: 16px;
+        border-radius: 16px;
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+    }
+
+    .cardTopic{
+        background-color: #1f1f1f;
+        border-radius: 24px;
+        margin-top: 16px;
+        max-width: 100%;
+        padding: 0px;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+
+    ul{
+        text-indent: 0px;
+        margin: 0px!important;
+        padding: 0px;
+        float: left;
+    }
+    }
+    
+</style>
+<body>
+    <div class="cover">
+
+    </div>
+    <div class="container">
+        
+    <h1>Introdução à Hidroponia: Agricultura Sustentável e Eficiente</h1>  
+
+    <p>A hidroponia é uma técnica de cultivo de plantas que substitui o solo por uma solução nutritiva, oferecendo às raízes dos vegetais água e nutrientes essenciais diretamente. Essa prática tem ganhado popularidade tanto em produções em larga escala quanto em hortas domésticas, por sua capacidade de otimizar recursos e gerar alimentos de alta qualidade.</p>
+    
+    <h2>Como Funciona a Hidroponia</h2>
+    
+    <p>Em vez de plantar diretamente na terra, as plantas hidroponicamente cultivadas crescem em substratos inertes, como fibra de coco ou argila expandida, ou simplesmente em água. Nesse sistema, os nutrientes dissolvidos são cuidadosamente balanceados e repostos periodicamente, garantindo que as plantas recebam todos os elementos necessários para seu desenvolvimento. Isso facilita o controle de fatores como pH, oxigênio e nutrientes, o que resulta em um crescimento mais rápido e saudável das plantas.</p>
+    
+    <h2>Vantagens da Hidroponia</h2>
+    
+    <ul>
+        <li><strong>Uso Eficiente da Água</strong>: A hidroponia consome até 90% menos água do que o cultivo tradicional, pois o sistema permite o reaproveitamento da água, ideal para regiões com escassez hídrica.</li>
+        <li><strong>Espaço Reduzido e Otimizado</strong>: Em comparação com métodos convencionais, a hidroponia permite uma densidade de cultivo maior em áreas menores. Isso torna possível produzir alimentos em locais urbanos, como telhados e varandas.</li>
+        <li><strong>Menor Uso de Pesticidas</strong>: Como o sistema é mais controlado, as plantas estão menos expostas a pragas e doenças, reduzindo a necessidade de pesticidas químicos.</li>
+        <li><strong>Crescimento Acelerado</strong>: A alta disponibilidade de nutrientes diretamente para as raízes permite que as plantas cresçam mais rápido, aumentando a produtividade.</li>
+    </ul>
+    
+    <h2>Desafios e Futuro da Hidroponia</h2>
+    
+    <p>Apesar de suas vantagens, a hidroponia exige um investimento inicial em equipamentos e uma curva de aprendizado sobre controle de nutrientes. No entanto, com o avanço da tecnologia, sistemas automatizados e kits domésticos facilitam cada vez mais a prática.</p>
+    
+    <p>Com o crescimento da população e a necessidade de soluções agrícolas sustentáveis, a hidroponia representa uma alternativa promissora e viável para a produção de alimentos.</p>
+    
+
+</div>
+</body>
+</html>
+    
